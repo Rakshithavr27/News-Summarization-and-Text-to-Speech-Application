@@ -8,7 +8,7 @@ Text-to-Speech: Converts the summarized content into Hindi speech.
 User Interface: Simple web-based interface using Streamlit.
 API Development: Communication between frontend and backend via APIs.
 
-Installation
+Installation:
 To run this application locally, follow these steps:
 
 Clone the repository:
@@ -25,32 +25,32 @@ Run the application:
     For the Streamlit app
     streamlit run app.py
 
-Usage
+Usage:
 Open your web browser and navigate to the Streamlit app (usually at http://localhost:8501).
 Enter the company name in the input field and click "Fetch News".
 The application will display the sentiment report and provide an audio file summarizing the report in Hindi.
 
-API Endpoints
+API Endpoints:
 GET /news: Fetch news articles and sentiment analysis for a specified company.
 Query Parameters:
 company: The name of the company to fetch news for.
 
-Example
+Example:
 To fetch news for Tesla, you can use the following API call:
 GET http://localhost:5000/news?company=Tesla
 
-Assumptions & Limitations
+Assumptions & Limitations:
 The application relies on the availability of news articles from the NewsAPI.
 The sentiment analysis is based on the content provided by the articles, which may vary in quality.
 The Google Translate API may have limitations on the number of requests.
 
-License
+License:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+Acknowledgments:
 NewsAPI for providing news articles.
 Hugging Face for sentiment analysis models.
 gTTS for text-to-speech conversion.
 
-Contact
+Contact:
 For any inquiries, please contact at [rakshithavanakudure@gmail.com].
