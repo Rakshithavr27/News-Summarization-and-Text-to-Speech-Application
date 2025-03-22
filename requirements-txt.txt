@@ -1,0 +1,8 @@
+
+beautifulsoup4
+requests
+streamlit
+transformers
+torch
+gtts
+flask
